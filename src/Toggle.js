@@ -13,13 +13,10 @@ function Toggle() {
             <Circle toggle={toggle} />
             </ToggleBtn>
             <h3>Toggle Switch {!toggle ? "OFF" : "ON"}</h3>
-        
         </>
-
 
 );
 }
-
 
 const ToggleBtn = styled.button`
   width: 130px;
